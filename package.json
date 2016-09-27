@@ -5,16 +5,24 @@
   "scripts": {
     "postinstall": "typings install",
     "build": "webpack",
-    "watch": "webpack --watch"
+    "watch": "webpack --watch",
+    "test": "karma start"
   },
   "devDependencies": {
+    "json-loader": "^0.5.4",
     "karma": "^1.3.0",
+    "karma-mocha": "^1.2.0",
+    "karma-mocha-reporter": "^2.2.0",
+    "karma-phantomjs-launcher": "^1.0.2",
+    "karma-webpack": "^1.8.0",
     "mocha": "^3.1.0",
+    "phantomjs": "^2.1.7",
     "power-assert": "^1.4.1",
     "ts-loader": "^0.8.2",
     "typescript": "^1.8.10",
     "typings": "^1.3.2",
-    "webpack": "^1.13.1"
+    "webpack": "^1.13.1",
+    "webpack-espower-loader": "^1.0.1"
   },
   "dependencies": {}
 }
