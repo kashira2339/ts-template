@@ -8,11 +8,13 @@
     "watch": "webpack --watch"
   },
   "devDependencies": {
+    "karma": "^1.3.0",
+    "mocha": "^3.1.0",
+    "power-assert": "^1.4.1",
     "ts-loader": "^0.8.2",
     "typescript": "^1.8.10",
     "typings": "^1.3.2",
     "webpack": "^1.13.1"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
