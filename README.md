@@ -20,3 +20,21 @@ npm run build
 # run webpack --watch (incremental build)
 npm run watch
 ```
+
+## Directory constitution
+
+```
+├── README.md
+├── index.html
+├── package.json
+├── src
+│   ├── American.ts
+│   ├── Japanese.ts
+│   ├── Person.ts
+│   └── index.ts
+├── tsconfig.json
+├── typings
+│   └── index.d.ts
+├── typings.json
+└── webpack.config.js
+```
