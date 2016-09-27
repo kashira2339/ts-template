@@ -4,7 +4,8 @@
   "license": "MIT",
   "scripts": {
     "postinstall": "typings install",
-    "build": "webpack"
+    "build": "webpack",
+    "watch": "webpack --watch"
   },
   "devDependencies": {
     "ts-loader": "^0.8.2",
